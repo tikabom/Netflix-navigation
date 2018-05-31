@@ -1,0 +1,24 @@
+{
+  "name": "netflix-navigation",
+  "version": "1.0.0",
+  "description": "netflix take home challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tikabom/Netflix-navigation.git"
+  },
+  "keywords": [
+    "netflix",
+    "react",
+    "ux"
+  ],
+  "author": "tikabom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tikabom/Netflix-navigation/issues"
+  },
+  "homepage": "https://github.com/tikabom/Netflix-navigation#readme"
+}
