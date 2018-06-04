@@ -1,0 +1,21 @@
+.browseLists {
+  margin-top: -3%;
+}
+
+.browseLists ul {
+  display: flex;
+}
+
+.browseLists ul li {
+  width: 20%;
+  margin: 0 2% 2% 0;
+  padding: 0;
+}
+
+.browseLists ul li.selected {
+  outline: 2px solid #ffffff;
+}
+
+.browseLists ul li img {
+  width: 100%;
+}

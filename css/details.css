@@ -1,0 +1,22 @@
+.details {
+  margin-top: -3rem;
+}
+
+.details input {
+  width: 15rem;
+  background-color: #000000;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  text-align: left;
+  padding: 0.5rem 1rem;
+  border: none;
+  font-size: 18px;
+}
+
+.details input.selected {
+  border: 2px solid #ffffff;
+}
+
+.releaseYear, .rating {
+  display: flex;
+}

@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  background-color: #000000;
+  cursor: none;
+  pointer-events: none;
+}
+
+#app {
+  padding: 0 3%;
+  color: #ffffff;
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+#app h2 {
+  font-size: 18px;
+  margin: 1%;
+}
+
+#app ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.headlineHeader ul {
+  display: flex;
+}
+
+.headlineHeader ul li {
+  width: 50%;
+  height: 55vh;
+}
+
+.headlineHeader ul li.headlineFocusImg div {
+  position: relative;
+}
+
+.headlineHeader ul li.headlineFocusImg div::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 40px 20px #000000;
+}
+
+.headlineHeader ul li div img {
+  width: 100%;
+}
+
+.headlineTitle {
+  color: #ffffff;
+}
+
+.headlineTitle div {
+  display: inline-flex;
+}
+
+.title, .releaseYear {
+  margin-right: 1rem;
+}
+
+.browsePage .releaseYear, .browsePage .rating {
+  display: none !important;
+}
+
+.detailsPage .releaseYear, .detailsPage .rating {
+  display: inline-flex;
+}
