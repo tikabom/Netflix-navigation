@@ -4,7 +4,8 @@
   "description": "netflix take home challenge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,14 @@
   "bugs": {
     "url": "https://github.com/tikabom/Netflix-navigation/issues"
   },
-  "homepage": "https://github.com/tikabom/Netflix-navigation#readme"
+  "homepage": "https://github.com/tikabom/Netflix-navigation#readme",
+  "devDependencies": {
+    "webpack": "^4.10.2",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "handlebars": "^4.0.11",
+    "jquery": "^3.3.1"
+  }
 }
