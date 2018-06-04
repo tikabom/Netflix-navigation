@@ -1,6 +1,7 @@
 # Netflix-navigation
 
 Project structure: 
+
 Netflix-navigation
   - assets
   - css
